@@ -21,9 +21,11 @@ function result(e,r){
   print(r[0].label)
   if(r[0].label=="1"){
     x=x+1
+    y=y+1
   }
   if(r[0].label=="-1"){
     x=x-1
+    y=y-1
   }
 
   cls.classify(cam, result)
